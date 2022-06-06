@@ -1,0 +1,44 @@
+.filteri input{
+    margin: 5px;
+    display: inline-block;
+    
+    
+}
+
+#donoriTabela {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+  }
+  
+  #donoriTabela td,
+  #donoriTabela th {
+    border: 0.8px solid rgba(220, 20, 60, 0.041);
+    padding: 2px;
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  
+  #donoriTabela tr:nth-child(even) {
+    background-color: #5e3b3b21;
+  }
+  
+  #donoriTabela tr:hover {
+    background-color: rgba(221, 221, 221, 0.349);
+  }
+  
+  #donoriTabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(220,53,69);
+    color: white;
+  
+  }
+
+  h3{
+    color:rgb(220,53,69);
+  }

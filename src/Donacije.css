@@ -1,0 +1,55 @@
+.filteri input {
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid rgba(24, 9, 12, 0.5);
+    
+}
+
+.filteri input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #310202a9;
+    opacity: 1; /* Firefox */
+  }
+
+.filteri input:focus {
+	outline: none;
+  	border: 1px solid rgb(153, 4, 4);
+}
+
+#donacijeTabela {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+  }
+  
+  #donacijeTabela td,
+  #donacijeTabela th {
+    border: 0.8px solid rgba(220, 20, 60, 0.041);
+    padding: 2px;
+  }
+  
+  td {
+    text-align: center;
+    
+  }
+
+  #donacijaTabela td:nth-child(8) {
+    white-space: nowrap;
+  }
+
+  
+  #donacijeTabela tr:nth-child(even) {
+    background-color: #5e3b3b21;
+  }
+  
+  #donacijeTabela tr:hover {
+    background-color: rgba(221, 221, 221, 0.349);
+  }
+  
+  #donacijeTabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(220,53,69);
+    color: white;
+  
+  }
